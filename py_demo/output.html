@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Word 文档渲染</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #e2e2e2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px 20px;
+            font-family: 'Segoe UI', 'Roboto', 'Noto Sans', sans-serif;
+        }
+        .page {
+            background: white;
+            width: 595.3pt;
+            min-height: 841.9pt;
+            margin: 20px auto;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            padding: 56.7pt 56.7pt 56.7pt 56.7pt;
+            page-break-after: always;
+            break-inside: avoid;
+        }
+        .paragraph {
+            margin: 0 0 0.5em 0;
+            line-height: 1.4;
+            word-wrap: break-word;
+        }
+        span {
+            white-space: pre-wrap;
+        }
+        @media print {
+            body {
+                background: none;
+                padding: 0;
+                margin: 0;
+            }
+            .page {
+                margin: 0;
+                box-shadow: none;
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+<div class="paragraph" style=""><span style="font-family: "Inconsolata", monospace;">Hello, world!</span></div><div class="paragraph" style=""><span style="font-weight: bold; font-weight: bold; font-family: "Inconsolata", monospace;">Hello, world!</span></div><div class="paragraph" style=""><span style="font-style: italic; font-style: italic; font-family: "Inconsolata", monospace;">Hello, world!</span></div><div class="paragraph" style=""><span style="text-decoration: underline; font-family: "Inconsolata", monospace;">Hello, world!</span></div><div class="paragraph" style=""><span style="font-weight: bold; font-weight: bold; font-style: italic; font-style: italic; text-decoration: underline; font-family: "Inconsolata", monospace;">Hello, world!</span></div><div class="paragraph" style="text-align: left;"><span style="text-decoration: line-through; font-family: "Inconsolata", monospace;">Hello, world!</span></div><div class="paragraph" style="text-align: left;"><span style="color: #C9211E; font-size: 36.0pt; font-size: 36.0pt; font-family: "Inconsolata", monospace;">Hello</span><span style="font-size: 36.0pt; font-size: 36.0pt; font-family: "Inconsolata", monospace;">, </span><span style="color: #C9211E; font-size: 36.0pt; font-size: 36.0pt; font-family: "Inconsolata", monospace;">wo</span><span style="font-size: 36.0pt; font-size: 36.0pt; font-family: "Inconsolata", monospace;">rl</span><span style="color: #C9211E; font-size: 36.0pt; font-size: 36.0pt; font-family: "Inconsolata", monospace;">d!</span></div><div class="paragraph" style="min-height: 1em;"></div><div class="paragraph" style="text-align: left;"><span style="font-family: "Inconsolata", monospace;">你好</span></div><div class="paragraph" style="text-align: left;"><span style="font-size: 26.0pt; font-size: 26.0pt; font-family: "Noto Serif CJK SC Black", "Noto Serif SC", "Source Han Serif", "SimSun", serif;">addons real_ad</span><span style="color: #C9211E; font-size: 26.0pt; font-size: 26.0pt; font-family: "Noto Serif CJK SC Black", "Noto Serif SC", "Source Han Serif", "SimSun", serif;">d</span><span style="font-size: 26.0pt; font-size: 26.0pt; font-family: "Noto Serif CJK SC Black", "Noto Serif SC", "Source Han Serif", "SimSun", serif;">on</span></div><div class="paragraph" style="text-align: left;"><span style="font-size: 26.0pt; font-size: 26.0pt; font-family: "Noto Serif CJK SC Black", "Noto Serif SC", "Source Han Serif", "SimSun", serif;">neo</span></div><div class="paragraph" style="min-height: 1em;"></div>
+</div>
+<div class="page">
+<div class="paragraph" style="text-align: left; margin-top: 0.0pt; margin-bottom: 0.0pt;"><span style="font-size: 26.0pt; font-size: 26.0pt; font-family: "Noto Serif CJK SC Black", "Noto Serif SC", "Source Han Serif", "SimSun", serif;">page</span></div>
+</div>
+</body>
+</html>

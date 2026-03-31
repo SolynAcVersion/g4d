@@ -1,0 +1,290 @@
+[
+  {
+    "file": "main.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-I.",
+      "-I./imgui",
+      "-I./include",
+      "-I./minizip",
+      "-o",
+      "g4d",
+      "main.cpp",
+      "-fpermissive",
+      "-Wwrite-strings"
+    ],
+    "directory": "/home/yldeveloper/projects/g4d",
+    "output": "g4d"
+  },
+  {
+    "file": "src/glad.c",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-I.",
+      "-I./imgui",
+      "-I./include",
+      "-I./minizip",
+      "-o",
+      "g4d",
+      "src/glad.c",
+      "-fpermissive",
+      "-Wwrite-strings"
+    ],
+    "directory": "/home/yldeveloper/projects/g4d",
+    "output": "g4d"
+  },
+  {
+    "file": "src/ylfile.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-I.",
+      "-I./imgui",
+      "-I./include",
+      "-I./minizip",
+      "-o",
+      "g4d",
+      "src/ylfile.cpp",
+      "-fpermissive",
+      "-Wwrite-strings"
+    ],
+    "directory": "/home/yldeveloper/projects/g4d",
+    "output": "g4d"
+  },
+  {
+    "file": "src/yltool.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-I.",
+      "-I./imgui",
+      "-I./include",
+      "-I./minizip",
+      "-o",
+      "g4d",
+      "src/yltool.cpp",
+      "-fpermissive",
+      "-Wwrite-strings"
+    ],
+    "directory": "/home/yldeveloper/projects/g4d",
+    "output": "g4d"
+  },
+  {
+    "file": "imgui/imgui.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-I.",
+      "-I./imgui",
+      "-I./include",
+      "-I./minizip",
+      "-o",
+      "g4d",
+      "imgui/imgui.cpp",
+      "-fpermissive",
+      "-Wwrite-strings"
+    ],
+    "directory": "/home/yldeveloper/projects/g4d",
+    "output": "g4d"
+  },
+  {
+    "file": "imgui/imgui_demo.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-I.",
+      "-I./imgui",
+      "-I./include",
+      "-I./minizip",
+      "-o",
+      "g4d",
+      "imgui/imgui_demo.cpp",
+      "-fpermissive",
+      "-Wwrite-strings"
+    ],
+    "directory": "/home/yldeveloper/projects/g4d",
+    "output": "g4d"
+  },
+  {
+    "file": "imgui/imgui_draw.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-I.",
+      "-I./imgui",
+      "-I./include",
+      "-I./minizip",
+      "-o",
+      "g4d",
+      "imgui/imgui_draw.cpp",
+      "-fpermissive",
+      "-Wwrite-strings"
+    ],
+    "directory": "/home/yldeveloper/projects/g4d",
+    "output": "g4d"
+  },
+  {
+    "file": "imgui/imgui_tables.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-I.",
+      "-I./imgui",
+      "-I./include",
+      "-I./minizip",
+      "-o",
+      "g4d",
+      "imgui/imgui_tables.cpp",
+      "-fpermissive",
+      "-Wwrite-strings"
+    ],
+    "directory": "/home/yldeveloper/projects/g4d",
+    "output": "g4d"
+  },
+  {
+    "file": "imgui/imgui_widgets.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-I.",
+      "-I./imgui",
+      "-I./include",
+      "-I./minizip",
+      "-o",
+      "g4d",
+      "imgui/imgui_widgets.cpp",
+      "-fpermissive",
+      "-Wwrite-strings"
+    ],
+    "directory": "/home/yldeveloper/projects/g4d",
+    "output": "g4d"
+  },
+  {
+    "file": "imgui/backends/imgui_impl_glfw.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-I.",
+      "-I./imgui",
+      "-I./include",
+      "-I./minizip",
+      "-o",
+      "g4d",
+      "imgui/backends/imgui_impl_glfw.cpp",
+      "-fpermissive",
+      "-Wwrite-strings"
+    ],
+    "directory": "/home/yldeveloper/projects/g4d",
+    "output": "g4d"
+  },
+  {
+    "file": "imgui/backends/imgui_impl_opengl3.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-I.",
+      "-I./imgui",
+      "-I./include",
+      "-I./minizip",
+      "-o",
+      "g4d",
+      "imgui/backends/imgui_impl_opengl3.cpp",
+      "-fpermissive",
+      "-Wwrite-strings"
+    ],
+    "directory": "/home/yldeveloper/projects/g4d",
+    "output": "g4d"
+  },
+  {
+    "file": "src/g4d.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-I.",
+      "-I./imgui",
+      "-I./include",
+      "-I./minizip",
+      "-o",
+      "g4d",
+      "src/g4d.cpp",
+      "-fpermissive",
+      "-Wwrite-strings"
+    ],
+    "directory": "/home/yldeveloper/projects/g4d",
+    "output": "g4d"
+  },
+  {
+    "file": "minizip/ioapi.c",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-I.",
+      "-I./imgui",
+      "-I./include",
+      "-I./minizip",
+      "-o",
+      "g4d",
+      "minizip/ioapi.c",
+      "-fpermissive",
+      "-Wwrite-strings"
+    ],
+    "directory": "/home/yldeveloper/projects/g4d",
+    "output": "g4d"
+  },
+  {
+    "file": "minizip/mztools.c",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-I.",
+      "-I./imgui",
+      "-I./include",
+      "-I./minizip",
+      "-o",
+      "g4d",
+      "minizip/mztools.c",
+      "-fpermissive",
+      "-Wwrite-strings"
+    ],
+    "directory": "/home/yldeveloper/projects/g4d",
+    "output": "g4d"
+  },
+  {
+    "file": "minizip/unzip.c",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-I.",
+      "-I./imgui",
+      "-I./include",
+      "-I./minizip",
+      "-o",
+      "g4d",
+      "minizip/unzip.c",
+      "-fpermissive",
+      "-Wwrite-strings"
+    ],
+    "directory": "/home/yldeveloper/projects/g4d",
+    "output": "g4d"
+  },
+  {
+    "file": "minizip/zip.c",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-I.",
+      "-I./imgui",
+      "-I./include",
+      "-I./minizip",
+      "-o",
+      "g4d",
+      "minizip/zip.c",
+      "-fpermissive",
+      "-Wwrite-strings"
+    ],
+    "directory": "/home/yldeveloper/projects/g4d",
+    "output": "g4d"
+  }
+]
