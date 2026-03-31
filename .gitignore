@@ -1,6 +1,6 @@
-./py_demo/*
-./py_demo
-./test
-./test/*
-./fontf.ttf
-./g4d
+py_demo/*
+py_demo
+test
+test/*
+fontf.ttf
+g4d
